@@ -1,6 +1,9 @@
 import os
 import sys
-sys.path.append('../AYON-PYTHON-API')
+# add api from a specific folder
+sys.path.append('C:/AYON-PYTHON-API')
+#add api from one folder up
+#sys.path.append('../AYON-PYTHON-API')
 import ayon_api
 
 # Set up the connection
