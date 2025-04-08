@@ -1,5 +1,7 @@
-import ayon_api
 import os
+import sys
+sys.path.append('../AYON-PYTHON-API')
+import ayon_api
 
 # Set up the connection
 os.environ["AYON_SERVER_URL"] = "http://192.168.80.20:5000/"
